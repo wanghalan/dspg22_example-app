@@ -108,8 +108,30 @@
     },
     "files": "data.csv"
   },
+  "credits": {
+    "bootstrap": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "version": "5.2.0-beta1"
+    },
+    "colorbrewer": {
+      "name": "ColorBrewer",
+      "url": "https://colorbrewer2.org",
+      "description": "Discrete color palettes"
+    },
+    "scico": {
+      "name": "Scico",
+      "url": "https://github.com/thomasp85/scico",
+      "description": "Implementation of color palettes by Fabio Crameri"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.12.1"
+    }
+  },
   "plotly": {
-    "plot1": {
+    "plot3": {
       "layout": {
         "hovermode": "closest",
         "margin": {
@@ -135,26 +157,17 @@
       ]
     }
   },
-  "credits": {
-    "bootstrap": {
-      "name": "Bootstrap",
-      "url": "https://getbootstrap.com",
-      "version": "5.2.0-beta1"
-    },
-    "colorbrewer": {
-      "name": "ColorBrewer",
-      "url": "https://colorbrewer2.org",
-      "description": "Discrete color palettes"
-    },
-    "scico": {
-      "name": "Scico",
-      "url": "https://github.com/thomasp85/scico",
-      "description": "Implementation of color palettes by Fabio Crameri"
-    },
-    "plotly": {
-      "name": "Plotly",
-      "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.12.1"
+  "button": {
+    "DownloadAllData": {
+      "effects": "export",
+      "dataview": {},
+      "query": {
+        "features": {
+          "geoid": "id",
+          "name": "name"
+        }
+      },
+      "api": false
     }
   }
 }

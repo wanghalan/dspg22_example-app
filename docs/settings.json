@@ -1,0 +1,160 @@
+{
+  "settings": {
+    "digits": 2,
+    "summary_selection": "all",
+    "color_by_order": false,
+    "boxplots": true,
+    "theme_dark": false,
+    "partial_init": true,
+    "palette": "vik",
+    "hide_url_parameters": false,
+    "background_shapes": true,
+    "iqr_box": true,
+    "polygon_outline": 1.5,
+    "color_scale_center": "none",
+    "table_autoscroll": true,
+    "table_scroll_behavior": "smooth",
+    "hide_tooltips": false,
+    "map_animations": "all",
+    "trace_limit": 20,
+    "map_overlay": true,
+    "circle_radius": 5
+  },
+  "metadata": {
+    "package": "data/datapackage.json",
+    "datasets": [
+      "data"
+    ],
+    "variables": {},
+    "info": {
+      "data": {
+        "bytes": 4498,
+        "encoding": "ISO-8859-1",
+        "md5": "2fe241f6ab46cdcfaa5451f84a5d7af1",
+        "format": "csv",
+        "name": "data",
+        "filename": "data.csv",
+        "source": [],
+        "ids": [],
+        "time": {},
+        "profile": "data-resource",
+        "created": "2022-07-19 14:31:52",
+        "last_modified": "2022-07-19 14:31:52",
+        "row_count": 78,
+        "entity_count": 78,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 0,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 39.5,
+              "sd": 22.6605,
+              "min": 1,
+              "max": 78
+            },
+            {
+              "name": "x",
+              "duplicates": 0,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 0.0145,
+              "sd": 1.0212,
+              "min": -2.4379,
+              "max": 2.4495
+            },
+            {
+              "name": "y",
+              "duplicates": 0,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.0902,
+              "sd": 0.9679,
+              "min": -2.7834,
+              "max": 2.6668
+            },
+            {
+              "name": "z",
+              "duplicates": 0,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 0.1212,
+              "sd": 1.1996,
+              "min": -3.452,
+              "max": 3.3116
+            }
+          ]
+        },
+        "sha512": "71c70f92ed393b107e45a00114b9bf4fbcb90303f1354d9811237ceb4951a30da4e96333a403125bb63036706a4e0f53430f06c7c9e43378ea85313e63a22b79",
+        "site_file": "data.json"
+      }
+    },
+    "files": "data.csv"
+  },
+  "plotly": {
+    "plot1": {
+      "layout": {
+        "hovermode": "closest",
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
+        }
+      },
+      "config": {
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "type": "scatter"
+        }
+      ]
+    }
+  },
+  "credits": {
+    "bootstrap": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "version": "5.2.0-beta1"
+    },
+    "colorbrewer": {
+      "name": "ColorBrewer",
+      "url": "https://colorbrewer2.org",
+      "description": "Discrete color palettes"
+    },
+    "scico": {
+      "name": "Scico",
+      "url": "https://github.com/thomasp85/scico",
+      "description": "Implementation of color palettes by Fabio Crameri"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.12.1"
+    }
+  }
+}

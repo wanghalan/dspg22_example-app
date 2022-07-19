@@ -1,0 +1,77 @@
+{
+  "name": "app",
+  "title": "App",
+  "licence": {
+    "url": "http://opendatacommons.org/licenses/pddl",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  },
+  "resources": [
+    {
+      "bytes": 4498,
+      "encoding": "ISO-8859-1",
+      "md5": "2fe241f6ab46cdcfaa5451f84a5d7af1",
+      "format": "csv",
+      "name": "data",
+      "filename": "data.csv",
+      "source": [],
+      "ids": [],
+      "time": {},
+      "profile": "data-resource",
+      "created": "2022-07-19 14:31:52",
+      "last_modified": "2022-07-19 14:31:52",
+      "row_count": 78,
+      "entity_count": 78,
+      "schema": {
+        "fields": [
+          {
+            "name": "ID",
+            "duplicates": 0,
+            "time_range": [0, 0],
+            "type": "integer",
+            "missing": 0,
+            "mean": 39.5,
+            "sd": 22.660538,
+            "min": 1,
+            "max": 78
+          },
+          {
+            "name": "x",
+            "duplicates": 0,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 0,
+            "mean": 0.014529,
+            "sd": 1.021164,
+            "min": -2.43794,
+            "max": 2.44946
+          },
+          {
+            "name": "y",
+            "duplicates": 0,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 0,
+            "mean": -0.090241,
+            "sd": 0.967937,
+            "min": -2.783443,
+            "max": 2.666795
+          },
+          {
+            "name": "z",
+            "duplicates": 0,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 0,
+            "mean": 0.121182,
+            "sd": 1.199589,
+            "min": -3.452047,
+            "max": 3.31156
+          }
+        ]
+      },
+      "sha512": "71c70f92ed393b107e45a00114b9bf4fbcb90303f1354d9811237ceb4951a30da4e96333a403125bb63036706a4e0f53430f06c7c9e43378ea85313e63a22b79"
+    }
+  ]
+}

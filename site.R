@@ -58,4 +58,8 @@ page_section(
   output_plot("selected_x", "y", "z")
 )
 
-site_build(output, open_after = TRUE, serve = TRUE , version ="local")
+# For testing:
+# site_build(output, open_after = TRUE, serve = TRUE , version ="local")
+
+# For publishing
+# site_build(output, open_after = TRUE, serve = TRUE)

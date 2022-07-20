@@ -1,7 +1,9 @@
-# library(devtools)
+library(devtools)
 install('/Users/loremipsum/Documents/GitHub/dspg22_community')
 
 library(community)
+
+output <- "/Users/loremipsum/Documents/GitHub/dspg22_example-app"
 
 page_navbar(
   title="Alan's example community-based app", 
@@ -63,3 +65,4 @@ page_section(
 
 # For publishing
 site_build(output, open_after = TRUE, serve = TRUE)
+

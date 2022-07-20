@@ -61,8 +61,8 @@ page_section(
 )
 
 # For testing:
-#site_build(output, open_after = TRUE, serve = TRUE , version ="local")
+site_build(output, open_after = TRUE, serve = TRUE , version ="local")
 
 # For publishing
-site_build(output, open_after = TRUE, serve = TRUE)
+# site_build(output, open_after = TRUE, serve = TRUE)
 
